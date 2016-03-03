@@ -2,7 +2,8 @@
 #define LEX_H
 
 typedef enum TokenType {
-
+	
+	UNKNOWN = 0x00,
 	IDENTIFIER,	
 
 } TokenType;
@@ -14,7 +15,7 @@ typedef struct Token {
 
 } Token;
 
-struct struct TokenList {
+typedef struct TokenList {
 
 	Token*		t;
 

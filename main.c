@@ -4,7 +4,10 @@
 
 int main(int argc, char** argv) {
 
-	Token* t = Token_new(
+	Token* t = Token_new(IDENTIFIER, "testing");
+	
+	Token_print(t);
+
 
 	return 0;
 
